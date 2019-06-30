@@ -25,7 +25,7 @@ SECRET_KEY = 'sax&w()$$7m@r6q4-nu61v0@a0bruikpd#@8nhf1&@osa&1u)z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mappp2.herokuapp.com']
 
 
 # Application definition
@@ -119,8 +119,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
-
-DEBUG = False
 
 try:
     from .local_settings import *
